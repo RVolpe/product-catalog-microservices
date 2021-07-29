@@ -1,0 +1,16 @@
+spring:
+
+  application:
+    name:
+      service-discovery
+
+  eureka:
+     client:
+        registerWithEureka: false
+        fetchRegistry: false
+        server:
+          waitTimeInMsWhenSyncEmpty: 0
+
+  cloud:
+    config:
+      uri: http://localhost:8888
